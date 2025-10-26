@@ -3,7 +3,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { AuthContext } from "@/context/auth-context";
 import { StudentContext } from "@/context/student-context";
 import { fetchStudentBoughtCoursesService } from "@/services";
-import { Watch } from "lucide-react";
+import { Play } from "lucide-react";
 import { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -49,7 +49,7 @@ function StudentCoursesPage() {
                   }
                   className="flex-1"
                 >
-                  <Watch className="mr-2 h-4 w-4" />
+                  <PLay className="mr-2 h-4 w-4" />
                   Start Watching
                 </Button>
               </CardFooter>
